@@ -24,7 +24,7 @@ const appMenuItems = <MenuItem>[
   MenuItem(
     title: 'Cards',
     subtitle: 'Card containers styled with Flutter',
-    link: '/card',
+    link: '/cards',
     icon: Icons.credit_card_outlined,
   ),
 ];
