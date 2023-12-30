@@ -45,4 +45,16 @@ const appMenuItems = <MenuItem>[
     link: '/animated_screen',
     icon: Icons.check_box_outline_blank_rounded,
   ),
+  MenuItem(
+    title: 'Counter Screen',
+    subtitle: 'Riverpod State Management',
+    link: '/counter_screen',
+    icon: Icons.calculate_outlined,
+  ),
+  MenuItem(
+    title: 'Theme Changer Screen',
+    subtitle: 'Theme Changer with Riverpod State Management',
+    link: '/theme_changer_screen',
+    icon: Icons.color_lens_outlined,
+  ),
 ];
