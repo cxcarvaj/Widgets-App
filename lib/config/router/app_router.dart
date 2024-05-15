@@ -19,5 +19,30 @@ final appRouter = GoRouter(
       name: CardScreen.routeName,
       builder: (context, state) => const CardScreen(),
     ),
+    GoRoute(
+      path: '/progress_indicator',
+      name: ProgressScreen.routeName,
+      builder: (context, state) => const ProgressScreen(),
+    ),
+    GoRoute(
+      path: '/snackbar_screen',
+      name: SnackBarScreen.routeName,
+      builder: (context, state) => const SnackBarScreen(),
+    ),
+    GoRoute(
+      path: '/animated_screen',
+      name: AnimatedScreen.routeName,
+      builder: (context, state) => const AnimatedScreen(),
+    ),
+    GoRoute(
+      path: '/counter_screen',
+      name: CounterScreen.routeName,
+      builder: (context, state) => const CounterScreen(),
+    ),
+    GoRoute(
+      path: '/theme_changer_screen',
+      name: ThemeChangerScreen.routeName,
+      builder: (context, state) => const ThemeChangerScreen(),
+    ),
   ],
 );

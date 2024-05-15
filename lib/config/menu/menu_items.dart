@@ -27,4 +27,34 @@ const appMenuItems = <MenuItem>[
     link: '/cards',
     icon: Icons.credit_card_outlined,
   ),
+  MenuItem(
+    title: 'Progress Indicators',
+    subtitle: 'General indicators and controlled',
+    link: '/progress_indicator',
+    icon: Icons.refresh_rounded,
+  ),
+  MenuItem(
+    title: 'SnackBars and Dialogs',
+    subtitle: 'SnackBars and Dialogs Screen',
+    link: '/snackbar_screen',
+    icon: Icons.info_outline,
+  ),
+  MenuItem(
+    title: 'Animated Container',
+    subtitle: 'Stateful Widget animated',
+    link: '/animated_screen',
+    icon: Icons.check_box_outline_blank_rounded,
+  ),
+  MenuItem(
+    title: 'Counter Screen',
+    subtitle: 'Riverpod State Management',
+    link: '/counter_screen',
+    icon: Icons.calculate_outlined,
+  ),
+  MenuItem(
+    title: 'Theme Changer Screen',
+    subtitle: 'Theme Changer with Riverpod State Management',
+    link: '/theme_changer_screen',
+    icon: Icons.color_lens_outlined,
+  ),
 ];
